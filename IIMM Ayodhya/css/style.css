@@ -1,0 +1,72 @@
+.text-just{
+    text-align: justify;
+}
+#aboutus{
+    height: 350px;
+    background-size: cover;
+    background-image: url('../images/about.jpg');
+}
+
+#contactus{
+    height: 350px;
+    background-size: cover;
+    background-image: url('../images/about.jpg');
+}
+
+*{
+    
+    box-sizing: border-box;
+}
+
+form{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: 15px;
+    padding: 8px;
+    margin: 0px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.main{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+input[type="submit"]{
+    color: white;
+    background-color: rgb(22, 105, 22);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid rgb(68, 139, 95);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+#link a{
+    color: white;
+   font-size: 18px;
+    position: relative;
+    list-style: none;
+}
